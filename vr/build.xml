@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See harness/README in the NetBeans platform -->
+<!-- for some information on what you could do (e.g. targets to override). -->
+<!-- If you delete this file and reopen the project it will be recreated. -->
+<project name="cz.caver.vr" default="netbeans" basedir=".">
+    <description>Builds, tests, and runs the project cz.caver.vr.</description>
+    <!-- Project common.xml imports build-impl.xml and extends module build
+         system with recursive classpath scanning and inclusion of JARs in
+         platform/ext to application classpath -->
+    <import file="nbproject/build-impl.xml"/>
+    <!-- <import file="../common.xml"/> -->
+</project>

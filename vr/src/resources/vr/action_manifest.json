@@ -1,0 +1,61 @@
+{
+  "default_bindings": [
+   {
+      "controller_type": "vive_controller",
+      "binding_url": "htc_vive_default_bindings.json"
+   }
+  ],
+  
+  "actions": [
+    {
+      "name": "/actions/main/in/Click",
+      "requirement": "mandatory",
+      "type": "pose"
+    },{
+      "name": "/actions/main/in/ComputeTunnels",
+      "requirement": "suggested",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/main/in/ComputeHydrogen",
+      "requirement": "suggested",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/main/out/VibrationFeedback",
+      "type": "vibration"
+    }
+  ],
+  
+  "action_sets": [
+    {
+      "name": "/actions/main",
+      "usage": "leftright"
+    }
+  ],
+  
+  "localization" : [
+   {
+       "language_tag": "en",
+
+        "/actions/main" : "Possible Actions",
+        
+        "/actions/main/in/Click" : "Click",
+        "/actions/main/in/ComputeTunnels" : "Tunel computation",
+        "/actions/main/in/ComputeHydrogen" : "Hydrogen computation",
+            
+        "/actions/driving/out/VibrationFeedback" : "Vibration feedback"
+    },
+    {
+       "language_tag": "cs",
+
+        "/actions/main" : "Možné akce",
+
+        "/actions/main/in/Click" : "Kliknutí",
+        "/actions/main/in/ComputeTunnels" : "Výpočet tunelů",
+        "/actions/main/in/ComputeHydrogen" : "Výpočet vodíku",
+            
+        "/actions/driving/out/VibrationFeedback" : "Zpětná vazba"
+    }
+  ]
+}
